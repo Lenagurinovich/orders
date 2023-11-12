@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form{
+  width: 575px;
+  margin: auto;
+  .inputs{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  .inputs :last-child{
+    width: 575px;
+    height: 80px;
+  }
+  input{
+    width: 277px;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    background: #F5F5F5;
+    margin: 5px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  input::placeholder{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  button{
+    width: 255px;
+    height: 36px;
+    border-radius: 45px;
+background: #181818;
+
+color: #FFF;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 38px;
+  }
+}
+
+.openCard{
+  width: 255px;
+  height: 36px;
+  border-radius: 45px;
+border: 1px solid #181818;
+background: #fff;
+
+color: #000;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 58px;
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+}
